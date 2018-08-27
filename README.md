@@ -62,11 +62,32 @@ Following lines list coordinates of points:
             <index of this point> <x> <y> <z>
             ...
 ```
-The obervation points can be numbered from zero or one.
+The obervation points can be numbered from zero or one. 
+
+An example is given in the folder '/Examples/Octahedron/' .
 
 > Comments in the files are prefixed by '#'
 
 ### GraTet
+The command for GraTet is
+```
+GraTet configuration_file
+```
+The configuration file contains information about mesh files and density contrasts of different regions. The format is
+```
+<input file name>
+<observation point file name>
+<order polynomial density contrast> #0, 1, 2 or 3
+<number of regions> # agree with the number of regions specified in *.poly file
+<marker> #region marker
+<polynomial coefficients of density contrast>
+...      # next region
+```
+
+
+
+## Sites
+Sites is a tool to generate regular grid of measuring points.
 
 ## Citation
 - Zhengyong Ren, Chaojian Chen, Kejia Pan, Thomas Kalscheuer, Hansruedi Maurer, and Jingtian Tang. Gravity Anomalies of Arbitrary 3D Polyhedral Bodies with Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 38(2):479–502, 2017.
