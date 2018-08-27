@@ -19,7 +19,7 @@ GraPly model_file observation_file output_file field_flag
 ```
 The 'field_flag' can be 'g' or 'ggt'. If 'g' is used, the gravity field will be calculated; if 'ggt' is used, the gravity gradient tensor field will be calculated.
 
-The 'model_file' is a file containing descriptions about polyhedrons.
+The 'model_file' is a file containing descriptions about polyhedrons. The format for the model file is 
 ```
 First line: <Number of polyhedrons n> 
 Following lines: <Description of polyhedron 0>
