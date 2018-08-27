@@ -127,6 +127,7 @@ To use our codes, please cite following articles:
 
 - Zhengyong Ren, Yiyuan Zhong, Chaojian Chen, Jingtian Tang, Thomas Kalscheuer, Hansruedi Maurer, and Yang Li. Gravity Gradient     Tensor of Arbitrary 3D Polyhedral Bodies with up to Third-Order Polynomial Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 39(5):901–935, 2018. ([Open access](https://link.springer.com/article/10.1007/s10712-018-9467-1))  DOI: https://doi.org/10.1007/s10712-018-9467-1 
 
+If you are a BibTex or BibLaTex user, see [citation.bib](https://github.com/zhong-yy/GraPly/blob/master/References/citation.bib).
 
 ## Notes
 It may not work correctly when dealing with non-convex polyhedrons, because the automated calculation of facet normal vectors in the codes (Polyhedral.cpp, Integral.cpp) is invalid for non-convex polyhedron.
