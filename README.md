@@ -28,7 +28,7 @@ Following lines: <Description of polyhedron 0>
                  <Description of polyhedron n-1>
 ```
 
-The format for <descriptoin of polyhedron i\> is
+where the format for <descriptoin of polyhedron i\> is
 ```
 One line: <index of this polyhedron> <number of nodes> <number of facets>
 Following lines list nodes:
