@@ -1,11 +1,13 @@
 #pragma once
 
-/***************************************************
-*Integral
-*
-*CSU,ZHONG YIYUAN
-*2017,3
-**************************************************/
+/*****************************************************************
+ * Integral class is to calculte some useful line integrals and surface
+ * integrals in terms of closed-form formulae.
+ *
+ * Copyright 2017
+ * Zhong, Yiyuan 
+ * Central South University
+ ******************************************************************/
 #include<vector>
 #include<cassert>
 #include <cstdlib>
