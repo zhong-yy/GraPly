@@ -27,7 +27,6 @@ Following lines: <Description of polyhedron 0>
                  ...
                  <Description of polyhedron n-1>
 ```
-
 where the format for <descriptoin of polyhedron i\> is
 ```
 One line: <index of this polyhedron> <number of nodes> <number of facets>
@@ -42,7 +41,8 @@ Folowing lines list polynomial coefficients of polynomial density contrast:
   a200  a020  a002  a101  a011  a110
   a003  a012  a021  a030  a102  a111  a120  a201  a210  a300
 ```
-The polynomial density contrast is
+
+Given the polynomial coefficients in the model file, the polynomial density contrast is
 ```
 a000
 + a100*x   + a010*y     + a001*z
