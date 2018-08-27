@@ -68,7 +68,7 @@ Following lines list coordinates of points:
             ...
 *********************************************************************************
 ```
-The obervation points can be numbered from zero or one.  Comments in the files are prefixed by charactor '#'
+The obervation points can be numbered from zero or one.  Comments in the files are prefixed by charactor '#'.
 
 An example is given in the folder '/Examples/Octahedron/' .
 
