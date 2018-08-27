@@ -70,7 +70,7 @@ The obervation points can be numbered from zero or one.
 
 An example is given in the folder '/Examples/Octahedron/' .
 
-> Comments in the files are prefixed by '#'
+**Comments in the files are prefixed by '#'**
 
 ### GraTet
 The command for GraTet is
