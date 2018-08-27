@@ -2,7 +2,7 @@
 Gravity fields and gravity gradient tensors (GGT) caused by polyhedrons with polynomial density constrasts (up to cubic order). Singularity-free analytical solutions are used in the calculation. For gravity, observation sites can be located inside, on, or outside the 3D mass bodies. For gravity gradient tensor, observation sites can be located everywhere except on the egdes or at the corners of polyhedrons (though on a facet the GGT values are evaluated as average of left-handed and righ-handed limits).
 
 
-## Building
+## 1 Building
 'cd' to the 'GraPly' directory and type 'make' to compile.  If everything goes well, you will get three executable programs: **GraPly**, **GraTet** and **Sites**
 
 - **GraPly** is a program to calculate the gravity and GGT of (convex) general polyhedrons using singularity-free closed-form solutions. 
@@ -11,14 +11,15 @@ Gravity fields and gravity gradient tensors (GGT) caused by polyhedrons with pol
 
 To remove the program binaries and object files, just type 'make clean'.
 
-## How to use
-### GraPly
+## 2 How to use
+### 2.1 GraPly
 The command to use  '**GraPly**' is 
 ```
 GraPly model_file observation_file output_file field_flag
 ```
 The 'field_flag' can be 'g' or 'ggt'. If 'g' is used, the gravity field will be calculated; if 'ggt' is used, the gravity gradient tensor field will be calculated.
 
+**Model file**
 The 'model_file' is a file containing descriptions about polyhedrons. The format for the model file is 
 ```
 *********************************************************************************
@@ -57,6 +58,7 @@ i.e.
 
 In the model file, all polyhedrons, facets of a single polyhedron,and corners of a single facet are numbered from zero. The units for x, y, z are kilometer, and the unit for density contrast is kilogram per cubic meter.  
 
+**Observation point file**
 The format for files containing observation points is given as
 ```
 *********************************************************************************
@@ -72,7 +74,7 @@ An example is given in the folder '/Examples/Octahedron/' .
 
 **Comments in the files are prefixed by charactor '#'**
 
-### GraTet
+### 2.2 GraTet
 The command for '**GraTet**' is
 ```
 GraTet configuration_file
@@ -106,8 +108,8 @@ a000
 
 An example is given in the folder '/Examples/Tetrahedral_grid/' .
 
-## Sites
-Sites is a tool to generate regular grid of measuring points. 
+## 2.3 Sites
+**Sites** is a tool to generate regular grid of measuring points. 
 
 The command is
 ```
@@ -124,7 +126,7 @@ To generate a grid with z=-0.001, x=[0,10], y=[0,10], point interval 0.5, and wr
 ./Sites 0:0.5:10 0:0.5:10 -0.001 out
 ```
 
-## Citation
+## 3 Citation
 To use our codes, please cite following articles:
 
 - Zhengyong Ren, Chaojian Chen, Kejia Pan, Thomas Kalscheuer, Hansruedi Maurer, and Jingtian Tang. Gravity Anomalies of Arbitrary 3D Polyhedral Bodies with Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 38(2):479–502, 2017.  DOI: https://doi.org/10.1007/s10712-016-9395-x
