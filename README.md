@@ -13,7 +13,7 @@ To remove the program binaries and object files, just type 'make clean'.
 
 ## How to use
 ### GraPly
-The command to use  **GraPly** is 
+The command to use  '**GraPly**' is 
 ```
 GraPly model_file observation_file output_file field_flag
 ```
@@ -73,7 +73,7 @@ An example is given in the folder '/Examples/Octahedron/' .
 **Comments in the files are prefixed by charactor '#'**
 
 ### GraTet
-The command for GraTet is
+The command for '**GraTet**' is
 ```
 GraTet configuration_file
 ```
