@@ -1,4 +1,10 @@
 #pragma once
+/***************************************************
+*Gravity
+*
+*CSU,ZHONG YIYUAN
+*2017,3
+**************************************************/
 #include"Integral.h"
 #include"Polyhedral.h"
 #include"Dyadic.h"
