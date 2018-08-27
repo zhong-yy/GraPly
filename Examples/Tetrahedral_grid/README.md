@@ -1,3 +1,5 @@
+https://github.com/zhong-yy/GraPly/blob/master/Examples/Tetrahedral_grid/README.md
+
 1. Copy 'GraPly' and 'Sites' to the current directory.
 2. Download and install 3D mesh generator tetgen
 http://www.wias-berlin.de/software/index.jsp?id=TetGen&lang=1
