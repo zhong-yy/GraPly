@@ -83,14 +83,14 @@ The configuration file contains information about mesh files and density contras
 <polynomial coefficients of density contrast>
 ...      # next region
 ```
-The polynomial coefficients are given in the following form:
+The polynomial coefficients given in the file as
 ```
 a000
 a100  a010  a001
 a200  a020  a002  a101  a011  a110
 a003  a012  a021  a030  a102  a111  a120  a201  a210  a300
 ```
-and the density constrast is
+will define the following density contrast:
 ```
 a000
 + a100*x   + a010*y     + a001*z
