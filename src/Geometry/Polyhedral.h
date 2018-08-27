@@ -1,3 +1,10 @@
+/*****************************************************************
+ * Polyheral class is to 
+ *
+ * Copyright 2017
+ * Zhong, Yiyuan 
+ * Central South University
+ ******************************************************************/
 #pragma once
 #include<vector>
 #include<algorithm>
