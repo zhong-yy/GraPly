@@ -1,3 +1,5 @@
+https://github.com/zhong-yy/GraPly/blob/master/Examples/Octahedron/README.md
+
 The file 'octahedron_model' describes the geometry and density contrast of a octahedral mass body.
 
 The file 'vertex_edge_interior' contains 3 observation points: a corner point (0, 0, 0), an edge point (1, 0, 1) and an interior point (0,0,1).
