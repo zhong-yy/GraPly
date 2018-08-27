@@ -53,7 +53,7 @@ i.e.
 
 ![](http://latex.codecogs.com/gif.latex?\\lambda=a_{000}+a_{100}x+a_{010}y+a_{001}z+a_{200}x^2+a_{020}y^2+a_{002}z^2+a_{101}xz+a_{011}yz+a_{110}xy+a_{003}z^3+a_{012}yz^2+a_{021}y^2z+a_{030}y^3+a_{102}xz^2+a_{111}xyz+a_{120}xy^2+a_{201}x^2z+a_{210}x^2y+a_{300}x^3})
 
-In the model file, all polyhedrons, facets of a single polyhedron,and corners of a single facet are numbered from zero. The units for x, y, z are kilometer, and the unit for density contrast is kilogram per cubic meter.  **Comments in the files are prefixed by '#'**
+In the model file, all polyhedrons, facets of a single polyhedron,and corners of a single facet are numbered from zero. The units for x, y, z are kilometer, and the unit for density contrast is kilogram per cubic meter.  
 
 The format for files containing observation points is given as
 ```
@@ -64,6 +64,7 @@ Following lines list coordinates of points:
 ```
 The obervation points can be numbered from zero or one.
 
+> Comments in the files are prefixed by '#'
 
 ### GraTet
 
