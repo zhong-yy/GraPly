@@ -12,22 +12,23 @@ Gravity fields and gravity gradient tensors (GGT) caused by polyhedrons with pol
 To remove the program binaries and object files, just type 'make clean'.
 
 ## How to use
+### GraPly
 For **GraPly**, the command is 
 ```
 GraPly model_file observation_file output_file field_flag
 ```
-The 'field_flag' can be 'g' or 'ggt'.
+The 'field_flag' can be 'g' or 'ggt'. If 'g' is used, the gravity field will be calculated; if 'ggt' is used, the gravity gradient tensor field will be calculated.
 
 The 'model_file' is a file containing descriptions about polyhedrons.
 ```
-First line: <Number of polyhedrons n>
+First line: <Number of polyhedrons n> 
 Following lines: <Description of polyhedron 0>
                  <Description of polyhedron 1>
                  ...
                  <Description of polyhedron n-1>
 ```
-The format for <descriptoin of polyhedron i> is
 
+The format for <descriptoin of polyhedron i\> is
 ```
 One line: <index of this polyhedron> <number of nodes> <number of facets>
 Following lines list nodes:
@@ -42,8 +43,29 @@ Folowing lines list polynomial coefficients of polynomial density contrast:
   a003  a012  a021  a030  a102  a111  a120  a201  a210  a300
 ```
 The polynomial density contrast is
+```
+a000
++ a100*x   + a010*y     + a001*z
++ a200*x^2 + a020*y^2   + a002*z^2   + a101*x*z + a011*y*z + a110*x*y
++ a003*z^3 + a012*y*z^2 + a021*y^2*z + a030*y^3 + a102*x*z^2+ a111*x*y*z+ a120*x*y^2+ a201*x^2*z+ a210*x^2*y+ a300x^3
+```
+i.e.
+
+![](http://latex.codecogs.com/gif.latex?\\lambda=a_{000}+a_{100}x+a_{010}y+a_{001}z+a_{200}x^2+a_{020}y^2+a_{002}z^2+a_{101}xz+a_{011}yz+a_{110}xy+a_{003}z^3+a_{012}yz^2+a_{021}y^2z+a_{030}y^3+a_{102}xz^2+a_{111}xyz+a_{120}xy^2+a_{201}x^2z+a_{210}x^2y+a_{300}x^3})
+
+In the model file, the polyhedrons, facets of a polyhedron,and corners of a single face are all numbered from zero. The units for x, y, z are kilometer, and the unit for density contrast is kilogram per cubic meter.
+
+The format for files containing observation points is given as
+```
+First line: <Number of points>
+Following lines list coordinates of points:
+            <index of this point> <x> <y> <z>
+            ...
+```
+The obervation points can start from zero or one.
 
 
+### GraTet
 
 ## Citation
 - Zhengyong Ren, Chaojian Chen, Kejia Pan, Thomas Kalscheuer, Hansruedi Maurer, and Jingtian Tang. Gravity Anomalies of Arbitrary 3D Polyhedral Bodies with Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 38(2):479–502, 2017.
