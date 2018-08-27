@@ -121,8 +121,10 @@ To generate a grid with z=-0.001, x=[0,10], y=[0,10], point interval 0.5, and wr
 ## Citation
 To use our codes, please cite following articles:
 
-> - Zhengyong Ren, Chaojian Chen, Kejia Pan, Thomas Kalscheuer, Hansruedi Maurer, and Jingtian Tang. Gravity Anomalies of Arbitrary 3D Polyhedral Bodies with Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 38(2):479–502, 2017.  DOI: https://doi.org/10.1007/s10712-016-9395-x 
+> - Zhengyong Ren, Chaojian Chen, Kejia Pan, Thomas Kalscheuer, Hansruedi Maurer, and Jingtian Tang. Gravity Anomalies of Arbitrary 3D Polyhedral Bodies with Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 38(2):479–502, 2017.  DOI: https://doi.org/10.1007/s10712-016-9395-x
+>
 >- Zhengyong Ren, Yiyuan Zhong, Chaojian Chen, Jingtian Tang, and Kejia Pan. Gravity anomalies of arbitrary 3D polyhedral bodies with horizontal and vertical mass contrasts up to cubic order. Geophysics, 83(1):G1–G13, 2018. DOI: https://doi.org/10.1190/geo2017-0219.1
+>
 >- Zhengyong Ren, Yiyuan Zhong, Chaojian Chen, Jingtian Tang, Thomas Kalscheuer, Hansruedi Maurer, and Yang Li. Gravity Gradient     Tensor of Arbitrary 3D Polyhedral Bodies with up to Third-Order Polynomial Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 39(5):901–935, 2018. ([Open access](https://link.springer.com/article/10.1007/s10712-018-9467-1))  DOI: https://doi.org/10.1007/s10712-018-9467-1 
 
 ## Notes
