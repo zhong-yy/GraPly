@@ -21,11 +21,13 @@ The 'field_flag' can be 'g' or 'ggt'. If 'g' is used, the gravity field will be 
 
 The 'model_file' is a file containing descriptions about polyhedrons. The format for the model file is 
 ```
+*********************************************************************************
 First line: <Number of polyhedrons n> 
 Following lines: <Description of polyhedron 0>
                  <Description of polyhedron 1>
                  ...
                  <Description of polyhedron n-1>
+*********************************************************************************
 ```
 where the format for <descriptoin of polyhedron i\> is
 ```
@@ -57,10 +59,12 @@ In the model file, all polyhedrons, facets of a single polyhedron,and corners of
 
 The format for files containing observation points is given as
 ```
+*********************************************************************************
 First line: <Number of points>
 Following lines list coordinates of points:
             <index of this point> <x> <y> <z>
             ...
+*********************************************************************************
 ```
 The obervation points can be numbered from zero or one. 
 
@@ -75,6 +79,7 @@ GraTet configuration_file
 ```
 The configuration file contains information about mesh files and density contrasts of different regions. The format is
 ```
+*********************************************************************************
 <input file name>
 <observation point file name>
 <order polynomial density contrast> #0, 1, 2 or 3
@@ -82,6 +87,7 @@ The configuration file contains information about mesh files and density contras
 <marker> #region marker
 <polynomial coefficients of density contrast>
 ...      # next region
+*********************************************************************************
 ```
 The polynomial coefficients given in the file as
 ```
