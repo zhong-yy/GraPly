@@ -62,7 +62,7 @@ Following lines list coordinates of points:
             <index of this point> <x> <y> <z>
             ...
 ```
-The obervation points can start from zero or one.
+The obervation points can be numbered from zero or one.
 
 
 ### GraTet
