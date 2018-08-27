@@ -1,10 +1,12 @@
 #pragma once
-/***************************************************
-*Gravity
+/*****************************************************************
+*Gravity class is to calculate gravity and gravity gradient of a 
+*single polyhedral mass body with (cubic) polynomial density contrast
 *
-*CSU,ZHONG YIYUAN
-*2017,3
-**************************************************/
+*Copyright 2017
+*Zhong, Yiyuan 
+*Central South University
+******************************************************************/
 #include"Integral.h"
 #include"Polyhedral.h"
 #include"Dyadic.h"
