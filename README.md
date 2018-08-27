@@ -3,7 +3,7 @@ Gravity fields and gravity gradient tensors (GGT) caused by polyhedrons with pol
 
 
 ## Building
-'cd' to the 'GraPly' directory and type 'make' to compile.  If everything goes well, you will get three executable program: **GraPly**, **GraTet** and **Sites**
+'cd' to the 'GraPly' directory and type 'make' to compile.  If everything goes well, you will get three executable programs: **GraPly**, **GraTet** and **Sites**
 
 - **GraPly** is a program to calculate the gravity and GGT of (convex) general polyhedrons using singularity-free closed-form solutions. 
 - **GraTet** is a program for forward modelling of gravity fields and GGTs using tetrahedral unstructured grids.
