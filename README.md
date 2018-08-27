@@ -13,7 +13,7 @@ To remove the program binaries and object files, just type 'make clean'.
 
 ## How to use
 ### GraPly
-For **GraPly**, the command is 
+The command to use  **GraPly** is 
 ```
 GraPly model_file observation_file output_file field_flag
 ```
