@@ -83,11 +83,40 @@ The configuration file contains information about mesh files and density contras
 <polynomial coefficients of density contrast>
 ...      # next region
 ```
+The polynomial coefficients are given in the following form:
+```
+a000
+a100  a010  a001
+a200  a020  a002  a101  a011  a110
+a003  a012  a021  a030  a102  a111  a120  a201  a210  a300
+```
+and the density constrast is
+```
+a000
++ a100*x   + a010*y     + a001*z
++ a200*x^2 + a020*y^2   + a002*z^2   + a101*x*z + a011*y*z + a110*x*y
++ a003*z^3 + a012*y*z^2 + a021*y^2*z + a030*y^3 + a102*x*z^2+ a111*x*y*z+ a120*x*y^2+ a201*x^2*z+ a210*x^2*y+ a300x^3
+```
 
-
+An example is given in the folder '/Examples/Tetrahedral_grid/' .
 
 ## Sites
-Sites is a tool to generate regular grid of measuring points.
+Sites is a tool to generate regular grid of measuring points. 
+
+The command is
+```
+Sites x_start:x_interval:x_end y_start:y_interval:y_end z output_file_name
+```
+
+To generate a measuring profile with x=[0,10], y=0, z=-0.001 and 0.5 point interval, and write results to file 'out', type
+```
+./Sites 0:0.5:10 0 -0.001 out
+```
+
+To generate a grid with z=-0.001, x=[0,10], y=[0,10], point interval 0.5, and write results to file 'out', type
+```
+./Sites 0:0.5:10 0:0.5:10 -0.001 out
+```
 
 ## Citation
 - Zhengyong Ren, Chaojian Chen, Kejia Pan, Thomas Kalscheuer, Hansruedi Maurer, and Jingtian Tang. Gravity Anomalies of Arbitrary 3D Polyhedral Bodies with Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 38(2):479–502, 2017.
