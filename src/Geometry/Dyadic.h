@@ -1,3 +1,10 @@
+/*****************************************************************
+ * Dyadic class is to  represent a dyadic, in a form of 3 by 3 matrix
+ *
+ * Copyright 2017
+ * Zhong, Yiyuan 
+ * Central South University
+ ******************************************************************/
 #pragma once
 #include"Point.h"
 #include<cassert>
