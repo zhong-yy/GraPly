@@ -1,0 +1,6 @@
+# Comments are prefixed by character '#'
+
+3 #3 points
+0	0	0	0 # at a corner (0,0,0)
+1	1	0	1 # on a edge   (1,0,1)
+2	0	0	1 # in the interior (0,0,1)

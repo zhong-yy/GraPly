@@ -1,0 +1,32 @@
+# Comments are prefixed by character '#'
+
+1 #First line, number of polyhedrons
+
+#The 1th target body (numbered from 0), which has 6 nodes and 8 facets 
+0	6	8 
+
+# Nodes, numbered from zero
+# <index> <x> <y> <z>
+0	0	0	0 # 1st node, at (0,0,0)
+1	-1	-1	1 
+2	1	-1	1 
+3	1	1	1 
+4	-1	1	1	
+5	0	0	2
+
+# Facets, numbered from zero
+# <number> <number of corners> <corner 1> <corner 2> ... <corner #>
+0	3	0	1	2 # 1st facet, contains 3 corners (0-1-2)
+1	3	0	1	4
+2	3	0	2	3
+3	3	0	4	3
+4	3	5	1	2
+5	3	5	1	4
+6	3	5	2	3
+7	3	5	4	3
+
+# Density contrast
+100
+10	5	2
+-50	-50	100	1	2	3
+1	1	0.5	0.2	0.5	1	5	8	6	50			
