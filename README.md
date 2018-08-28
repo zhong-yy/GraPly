@@ -125,7 +125,7 @@ To generate a grid with z=-0.001, x=[0,10], y=[0,10], point interval 0.5, and wr
 ```
 
 ## 3 Citation
-To use our codes, please cite following articles:
+Use the following citation to reference our codes:
 
 - Zhengyong Ren, Chaojian Chen, Kejia Pan, Thomas Kalscheuer, Hansruedi Maurer, and Jingtian Tang. Gravity Anomalies of Arbitrary 3D Polyhedral Bodies with Horizontal and Vertical Mass Contrasts. Surveys in Geophysics, 38(2):479–502, 2017.  DOI: https://doi.org/10.1007/s10712-016-9395-x
 
