@@ -1,4 +1,7 @@
 #pragma once
+/*
+*Observation class is to represent a list of observation points and read observation points from ASCII file
+*/
 #include<vector>
 #include<cassert>
 #include<fstream>
