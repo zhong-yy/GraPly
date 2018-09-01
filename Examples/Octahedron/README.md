@@ -6,7 +6,7 @@ The file 'vertex_edge_interior' contains 3 observation points: a corner point (0
 
 The file 'profile1' contains observation points on a profile outside the octahedron, in a range of x=[-2,2] km, y=0.5 km, and z=-0.001 km. The file 'profile1' contains a measuring profile passing the octahedron, with x=[-2,2] km, y=0.5 km, and z=-0.001 km. The point interval is 0.1 km.
 
-First copy 'GraPly' to the current directory.
+Assuming you have built the program 'GraPly' using makefile in the '/GraPly' directory, first copy 'GraPly' to the current directory.
 
 1. To calculate the gravity field at a corner point, a edge point and an interior point, type
 ```
