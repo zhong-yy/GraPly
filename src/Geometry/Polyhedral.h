@@ -1,5 +1,5 @@
 /*****************************************************************
- * Polyheral class is to 
+ * Polyheral class is to represent a polyhedron
  *
  * Copyright 2017
  * Zhong, Yiyuan 
