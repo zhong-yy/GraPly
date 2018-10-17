@@ -82,7 +82,7 @@ The configuration file contains information about mesh files and density contras
 *********************************************************************************
 <input file name>
 <observation point file name>
-<order polynomial density contrast> #0, 1, 2 or 3
+<order of polynomial density contrast> #0, 1, 2 or 3
 <number of regions> # agree with the number of regions specified in *.poly file
 <marker> #region marker
 <polynomial coefficients of density contrast>
