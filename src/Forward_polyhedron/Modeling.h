@@ -2,7 +2,7 @@
 /*****************************************************************
  * Modeling class is to read geometrical information of a collection of
  * polyhedrons from ASCII files, to read observation sites from files
- * and calculate gravity fields and GGTs of at all polyhedrons at all
+ * and calculate gravity fields and GGTs of all polyhedrons at all
  * observation sites.
  *
  * Copyright 2017
