@@ -1,5 +1,5 @@
 # GraPly
-It's a C++ program for computing gravity fields and gravity gradient tensors (GGT) caused by polyhedrons with polynomial density constrasts (up to cubic order). Singularity-free analytical solutions are used in the calculation. For gravity, observation sites can be located inside, on, or outside the 3D mass bodies. For gravity gradient tensor, observation sites can be located everywhere except on the egdes or at the corners of polyhedrons (though on a facet the GGT values are evaluated as average of left-handed and righ-handed limits).
+It's a C++ program for computing gravity fields and gravity gradient tensors (GGT) caused by polyhedrons with polynomial density contrasts (up to cubic order). Singularity-free analytical solutions are used in the calculation. For gravity, observation sites can be located inside, on, or outside the 3D mass bodies. For gravity gradient tensor, observation sites can be located everywhere except on the egdes or at the corners of polyhedrons (though on a facet the GGT values are evaluated as average of left-handed and righ-handed limits).
 
 
 ## 1 Building
