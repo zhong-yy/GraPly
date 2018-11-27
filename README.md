@@ -135,5 +135,5 @@ Use the following citations to reference our codes:
 
 If you are a BibTex or BibLaTex user, see [citation.bib](https://github.com/zhong-yy/GraPly/blob/master/References/citation.bib).
 
-## Notes
+## Notices / todos
 It may not work correctly when dealing with non-convex polyhedrons, because the automated calculation of facet normal vectors in the codes (Polyhedral.cpp, Integral.cpp) is invalid for non-convex polyhedron, although the closed-form formulae in the above cited papers are fit for both convex and non-convex polyhedrons. An alternative is to decompose the non-convex polyhedron into a couple of convex polyhedrons.
