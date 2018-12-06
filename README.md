@@ -124,6 +124,11 @@ To generate a grid with z=-0.001, x=[0,10], y=[0,10], point interval 0.5, and wr
 ./Sites 0:0.5:10 0:0.5:10 -0.001 out
 ```
 
+To generate a grid with z=[-5,1], x=[-5,5], y=[0,10], point interval 0.5, and write results to file 'out', type
+```
+./Sites -5:0.5:5 0:0.5:10 -5:0.5:1 out
+```
+
 ## 3 Citation
 Use the following citations to reference our codes:
 
